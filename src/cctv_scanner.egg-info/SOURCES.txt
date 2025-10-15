@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/cctv_scanner.egg-info/PKG-INFO
+src/cctv_scanner.egg-info/SOURCES.txt
+src/cctv_scanner.egg-info/dependency_links.txt
+src/cctv_scanner.egg-info/top_level.txt
+src/downtime_calc/downtime_calc.py
+src/scanner_modulo/__init__.py
+src/scanner_modulo/scan.py
+src/sql_manager_modulo/ORM_manager.py
+src/sql_manager_modulo/__init__.py

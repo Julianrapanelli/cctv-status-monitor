@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cctv_scanner"
+version = "0.1.0"
+description = "Conjunto de modulos para conectarse a la bbdd de cctv en azure, escanear todas las cámaras, y realizar un push a la tabla de desconexiones con el status de dispostivos."
+authors = [{name = "Julián Rapanelli", email = "julianrapanelli@cofcointernational.com"}]
+readme = "README.md"
+license = {text = "Todos los derechos reservados Cofco International Argentina S.A."}
