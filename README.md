@@ -41,24 +41,23 @@ Especificaciones Técnicas Particulares
 
 2.3	Arquitectura del sistema
 
-|     Componente         |     Tecnología/Herramienta        |     Descripción                                                                                               |   |   |
-|------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------|---|---|
-|     Base de   datos    |     Azure SQL   Database          |     Sistema   transaccional. Almacena datos estructurados de dispositivos, sitios,   movimientos y eventos    |   |   |
-|     Backend            |     Python                        |     Lógica de   negocio, scripts de ETL y comunicación con la base de datos.                                  |   |   |
-|     ORM                |     SQLAlchemy                    |     Manejo de   consultas y transacciones a través del mapeo relacional de la base de datos.                  |   |   |
-|     Logging            |     Módulo logging   de Python    |     Registro   de eventos, errores y operaciones críticas                                                     |   |   |
-|     Frontend           |                                   |                                                                                                               |   |   |
- 
+|     Componente         |     Tecnología/Herramienta        |     Descripción                                                                                               |
+|------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------|
+|     Base de   datos    |     Azure SQL   Database          |     Sistema   transaccional. Almacena datos estructurados de dispositivos, sitios,   movimientos y eventos    |
+|     Backend            |     Python                        |     Lógica de   negocio, scripts de ETL y comunicación con la base de datos.                                  |
+|     ORM                |     SQLAlchemy                    |     Manejo de   consultas y transacciones a través del mapeo relacional de la base de datos.                  |
+|     Logging            |     Módulo logging   de Python    |     Registro   de eventos, errores y operaciones críticas                                                     |
+|     Frontend           |                                   |                                                                                                               |
+
+
 
 2.4 	Modelado de datos
 
-|     Tabla          |     Campos   relevantes          |     Restricciones                                                                                                                            |   |   |
-|--------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---|---|
-|     DISPOSITIVO    |     IP_ADDRESS,   MAC_ADDRESS    |     UNIQUE,   c/ INDEX que permite NULL                                                                                                      |   |   |
-|     DESCONEXION    |     RECONEXION_DATE              |     PERMITE   NULL, el valor se almacena como NULL por default, cuando el disp. Es   reconectado, se realiza UPDATE con fecha de lectura.    |   |   |
-|                    |                                  |                                                                                                                                              |   |   |
-|                    |                                  |                                                                                                                                              |   |   |
-|                    |                                  |                                                                                                                                              |   |   |
+|     Tabla          |     Campos   relevantes          |     Restricciones                                                                                                                            |
+|--------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+|     DISPOSITIVO    |     IP_ADDRESS,   MAC_ADDRESS    |     UNIQUE,   c/ INDEX que permite NULL                                                                                                      | 
+|     DESCONEXION    |     RECONEXION_DATE              |     PERMITE   NULL, el valor se almacena como NULL por default, cuando el disp. Es   reconectado, se realiza UPDATE con fecha de lectura.    | 
+|                    |                                  |                                                                                                                                              | 
  
 
 2.5 	Diagrama secuencia de actualización [DESCONEXION]
