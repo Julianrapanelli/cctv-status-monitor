@@ -1,25 +1,20 @@
-#Documentación sistema de análisis CCTV
+# Documentación sistema de análisis CCTV
 
 
 
-##Índice
+## Índice
 
 
--###1.- PROPÓSITO	2
--###2.- INFORMACIÓN GENERAL DEL SISTEMA	2
--###3.- INTERFACES DE USUARIO Y ACCESO 	2
--###5.- FLUJO DE TRABAJO INTERNO Y FUNCIONES	3
--###6.- USO	4
--###7.- REQUERIMIENTOS Y ESPECIFICACIONES TÉCNICAS 	4
-
-
-		
- 
-Especificaciones Técnicas Particulares
+ ### 1. PROPÓSITO
+ ### 2. INFORMACIÓN GENERAL DEL SISTEMA
+ ### 3. INTERFACES DE USUARIO Y ACCESO
+ ### 5. FLUJO DE TRABAJO INTERNO Y FUNCIONES
+ ### 6. USO
+ ### 7. REQUERIMIENTOS Y ESPECIFICACIONES TÉCNICAS
 
 1.	PROPÓSITO
 
-	El sistema es una plataforma de gestión de dispositivos diseñada para registrar la ubicación física de dispositivos en sitios y sectores, gestionar movimientos entre ubicaciones (préstamos, devoluciones, traslados) y Monitorear el estado de conexión/desconexión de dispositivos.
+-	El sistema es una plataforma de gestión de dispositivos diseñada para registrar la ubicación física de dispositivos en sitios y sectores, gestionar movimientos entre ubicaciones (préstamos, devoluciones, traslados) y Monitorear el estado de conexión/desconexión de dispositivos.
 
 2.	INFORMACIÓN GENERAL DEL SISTEMA:
 2.1	Capacidades principales del sistema
@@ -50,7 +45,6 @@ Especificaciones Técnicas Particulares
 |--------------------|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 |     DISPOSITIVO    |     IP_ADDRESS,   MAC_ADDRESS    |     UNIQUE,   c/ INDEX que permite NULL                                                                                                      | 
 |     DESCONEXION    |     RECONEXION_DATE              |     PERMITE   NULL, el valor se almacena como NULL por default, cuando el disp. Es   reconectado, se realiza UPDATE con fecha de lectura.    | 
-|                    |                                  |                                                                                                                                              | 
  
 
 2.5 	Diagrama secuencia de actualización [DESCONEXION]
