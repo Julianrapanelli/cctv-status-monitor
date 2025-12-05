@@ -12,7 +12,7 @@
  ### 6. USO
  ### 7. REQUERIMIENTOS Y ESPECIFICACIONES TÉCNICAS
 
-####1.	PROPÓSITO
+#### 1.	PROPÓSITO
 
 -	El sistema es una plataforma de gestión de dispositivos diseñada para registrar la ubicación física de dispositivos en sitios y sectores, gestionar movimientos entre ubicaciones (préstamos, devoluciones, traslados) y Monitorear el estado de conexión/desconexión de dispositivos.
 
