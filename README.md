@@ -16,7 +16,7 @@
 
 -	El sistema es una plataforma de gestión de dispositivos diseñada para registrar la ubicación física de dispositivos en sitios y sectores, gestionar movimientos entre ubicaciones (préstamos, devoluciones, traslados) y Monitorear el estado de conexión/desconexión de dispositivos.
 
-2.	INFORMACIÓN GENERAL DEL SISTEMA:
+#### 2.	INFORMACIÓN GENERAL DEL SISTEMA:
 2.1	Capacidades principales del sistema
 -	Tanto sistema como base de datos deberán estar alojadas en nube con el fin de asegurar alta disponibilidad.
 -	El sistema funciona las 24 horas del día, ejecutando análisis de los dispositivos en la red cada 30 minutos.
@@ -60,6 +60,6 @@
 	Transacciones: El uso de las funciones commit y rollback de la librería SQLAlchemy, permite garantizar consistencia y no afectar integridad de los datos.
 
 
-3.	INTERFACES DE USUARIO Y ACCESO:
+#### 3.	INTERFACES DE USUARIO Y ACCESO:
 
-3.1	asdfasdf
+****
